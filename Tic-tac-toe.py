@@ -24,12 +24,11 @@ def players():
     return (player_1, player_2)
 
 
-def playing_game(board, player_1, player_2, game_count)
-   if game_count < turn_limit:
+def playing_game(board, player_1, player_2, game_count):
+    if game_count < turn_limit:
         play = player_1
         play = player_2
         print("Next players turn")
-
     else:
         out_of_turns = True
         print("No more turns, you lose")
