@@ -1,2 +1,2 @@
-# CSE210-W01
+# CSE210
 Week 1 Prove Assignment
